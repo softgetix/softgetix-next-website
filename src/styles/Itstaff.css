@@ -1,0 +1,19 @@
+#IT-staff-augmented-slider .augmentation-staff-slider .augmentation-staff-slider-row {
+    width: 4200px;
+    height: 391px;
+    background-image: url(/assets/staff-augmentation-slider-img.0323f25609f0d1e76e74.webp);
+    /*background-size: 2956px 194.5px;*/
+    animation: slide 50s linear infinite; 
+  }
+  #staff_benefits .csd_project_values{
+    padding: 20px;
+    min-height: 293px;
+    max-height: max-content;
+  }
+  @media only screen and (max-width:768px)
+  {
+    #staff_benefits .csd_project_values{
+      min-height: auto;}
+  }
+ 
+

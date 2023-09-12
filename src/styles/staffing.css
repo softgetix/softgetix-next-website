@@ -1,0 +1,58 @@
+/* staffing technologies mob view */
+@media only screen and (max-width:767px){
+    #staff_steps .col-lg-4.col-md-6.col-xs-12.technology-box-row1 {
+        flex: 0 0 20%;max-width: 50%;
+    }
+    #staff_steps .col-lg-4.col-md-6.col-xs-12.technology-box-row2 {
+        flex: 0 0 20%;max-width: 50%;
+    }
+    #staff_steps .col-lg-4.col-md-6.col-xs-12.technology-box-row1.technology-box-row1-sm.codeigniter-sm {
+        margin-top: 75px;
+    }
+    #staff_steps .technology-box-row1 {
+      margin-top: 20px;
+    }
+    #staff_steps .technology-box-row2 {
+        margin-top: 75px;
+      }
+    #staff_steps .technology-box {
+      min-height: 215px;max-height: max-content;min-width: 155px;max-width: max-content;
+    }
+    #staff_steps .icon_div {
+      top: -15%;left: 60%;transform: translate(-50px,0px);
+    }
+    #staff_steps .icon {
+      padding: 10px 10px;
+    }
+    #staff_steps img {
+      height: 50px;width: 50px;
+    }
+    #staff_steps h3.text-center {
+      height: 60px;font-size: 20px;
+    }
+    #staff_steps .free_Quote_btn {
+        min-width: 120px;max-width: max-content;
+    }
+    #staff_banner .banner_buttons {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+  }
+  @media only screen and (max-width:320px){
+    #staff_steps .technology-box {
+        min-height: 200px;max-height: max-content;min-width: 130px;max-width: max-content;
+    }
+    #staff_steps h3.text-center {
+        font-size: 16px;height: 45px;
+    }  
+    #staff_steps .free_Quote_btn {
+        min-width: 100px;max-width: max-content;
+    }
+  }
+  @media screen and (min-width:768px) and (max-width:991px){
+    #staff_steps .col-lg-4.col-md-6.col-xs-12.technology-box-row1.technology-box-row1-sm.codeigniter-sm {
+        margin-top: 90px;
+    }
+  }
+

@@ -1,0 +1,8 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+sitemap : https://softgetix.com/sitemap.xml
+Disallow: /get-free-quote 
+Disallow: /confidentiality-policy
+Disallow: /refund-policy
+Disallow: /hiring
+
